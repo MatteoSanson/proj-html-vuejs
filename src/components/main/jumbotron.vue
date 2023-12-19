@@ -54,11 +54,6 @@ export default {
 <template>
     <div class="jumbotron">
         <singleOption v-for="option in options" :option="option" />
-        <!-- <div v-for="option in options" class="options">
-
-            <img :src="option.img" alt="">
-            <h3>{{ option.nome }}</h3>
-        </div> -->
     </div>
 </template>
 

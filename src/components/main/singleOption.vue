@@ -11,8 +11,12 @@ export default {
 
 <template>
     <div class="options">
-        <img :src="option.img" :alt="option.name">
-        <h3>{{ option.name }}</h3>
+        <a :href="option.link" :target="option.target">
+            <img :src="option.img" :alt="option.name">
+        </a>
+        <a :href="option.link" :target="option.target">
+            <h3>{{ option.name }}</h3>
+        </a>
     </div>
 </template>
 
