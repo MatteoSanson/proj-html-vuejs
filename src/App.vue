@@ -1,17 +1,27 @@
 <script>
-export default {
-  name: 'DefaultTemplate',
+import AppHeader from './components/header/AppHeader.vue';
+import AppMain from './components/main/AppMain.vue';
+import AppFooter from './components/footer/AppFooter.vue';
 
+export default {
+  name: 'App',
   data() {
     return {
-      text: 'Template Vite VueJS',
-    };
+
+    }
   },
-};
+  components: {
+    AppHeader,
+    AppMain,
+    AppFooter
+  },
+}
 </script>
 
 <template>
-  <h1>{{ text }}</h1>
+  <AppHeader />
+  <AppMain />
+  <AppFooter />
 </template>
 
-<style scoped lang="scss"></style>
+<style scoped></style>
