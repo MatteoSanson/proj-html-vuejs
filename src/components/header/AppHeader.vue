@@ -6,7 +6,10 @@ export default {
 
 <template>
     <header>
-        --- Header ---
+        <h1>
+            --- Header ---
+        </h1>
+        <p>prova <font-awesome-icon icon="fa-solid fa-user-secret" /></p>
     </header>
 </template>
 
