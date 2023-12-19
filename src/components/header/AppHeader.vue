@@ -9,7 +9,7 @@ export default {
         <h1>
             --- Header ---
         </h1>
-        <p>prova <font-awesome-icon icon="fa-solid fa-user-secret" /></p>
+        <p>prova <font-awesome-icon icon="fa-solid fa-magnifying-glass" /></p>
     </header>
 </template>
 
