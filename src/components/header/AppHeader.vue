@@ -1,9 +1,13 @@
 <script>
 import navHeader from './navHeader.vue';
+import contentHeader from './contentHeader.vue';
 
 export default {
     name: 'AppHeader',
-    components: { navHeader },
+    components: {
+        navHeader,
+        contentHeader,
+    },
     data() {
         return {
 
@@ -15,6 +19,7 @@ export default {
 <template>
     <header class="app-header">
         <navHeader />
+        <contentHeader />
     </header>
 </template>
 
