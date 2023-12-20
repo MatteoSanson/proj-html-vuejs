@@ -3,6 +3,7 @@ import jumbotron from './jumbotron.vue';
 import tutoring from './tutoring.vue';
 import empowering from './empowering.vue';
 import profiles from './profiles.vue';
+import learning from './learning.vue';
 export default {
     name: 'AppMain',
     components: {
@@ -10,6 +11,7 @@ export default {
         tutoring,
         empowering,
         profiles,
+        learning,
     },
 };
 </script>
@@ -20,6 +22,7 @@ export default {
         <tutoring />
         <empowering />
         <profiles />
+        <learning />
     </main>
 </template>
 
