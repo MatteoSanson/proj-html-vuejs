@@ -6,6 +6,7 @@ import "@fontsource/montserrat";
 import "@fontsource/montserrat/700.css";
 // import Source Serif Pro
 import "@fontsource/source-serif-pro";
+import "@fontsource/source-serif-pro/700.css";
 /* import the fontawesome core */
 import { library } from '@fortawesome/fontawesome-svg-core';
 
