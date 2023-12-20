@@ -24,7 +24,7 @@ export default {
 .container {
     @include container;
     display: flex;
-    gap: 40px;
+    gap: 50px;
     padding: 130px 0;
 }
 </style>

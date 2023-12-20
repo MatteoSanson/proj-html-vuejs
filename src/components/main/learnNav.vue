@@ -57,7 +57,7 @@ export default {
 @use '../../assets/scss/partials/variables.scss' as *;
 
 .gigio {
-    width: 300px;
+    min-width: 300px;
     display: flex;
 
     ul {
