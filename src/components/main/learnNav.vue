@@ -35,13 +35,14 @@ export default {
             width: 100%;
             border: 1px solid $secondary-bd-color;
             border-top: none;
+            background-color: $bg-secondary;
 
             &:first-child {
                 border-top: 1px solid $secondary-bd-color;
             }
 
             h3 {
-                padding: 20px 0 20px 20px;
+                padding: 25px 0 25px 25px;
                 color: $sixth-color;
             }
         }
