@@ -81,7 +81,7 @@ ul {
         text-align: start;
         border: 1px solid $tertiary-bd-color;
         background-color: $bg-secondary;
-        margin-bottom: 80px;
+        margin-bottom: 160px;
 
         .cont-img {
             @include contImg;
