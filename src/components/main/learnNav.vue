@@ -1,54 +1,22 @@
 <script>
 export default {
     name: 'learnNav',
-    data() {
-        return {
-            options: [
-                {
-                    program: 'What we do',
-                    link: '#',
-                    target: '_self',
-                },
-                {
-                    program: 'Degree Programme',
-                    link: '#',
-                    target: '_self',
-                },
-                {
-                    program: 'Career Achievements',
-                    link: '#',
-                    target: '_self',
-                },
-                {
-                    program: 'Personal Management',
-                    link: '#',
-                    target: '_self',
-                },
-                {
-                    program: 'Steps To Success',
-                    link: '#',
-                    target: '_self',
-                },
-                {
-                    program: 'Knowledge Transfer',
-                    link: '#',
-                    target: '_self',
-                },
-            ],
-        }
-    }
+    props: {
+        options: {
+            type: Array,
+        },
+    },
 };
 </script>
 
 <template>
     <div class="gigio">
         <ul>
-            <li v-for="option in options">
+            <li v-for="option in options" :key="option.program">
                 <a :href="option.link" :target="option.target">
                     <h3>{{ option.program }}</h3>
                 </a>
             </li>
-
         </ul>
     </div>
 </template>

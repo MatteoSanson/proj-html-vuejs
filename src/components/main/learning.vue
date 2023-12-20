@@ -1,19 +1,56 @@
 <script>
 import learnNav from './learnNav.vue';
 import learnContent from './learnContent.vue';
+
 export default {
     name: 'learning',
     components: {
         learnNav,
         learnContent,
-    }
+    },
+    data() {
+        return {
+            learnNavOptions: [
+                {
+                    program: 'What we do',
+                    link: '#',
+                    target: '_self',
+                },
+                {
+                    program: 'Degree Programme',
+                    link: '#',
+                    target: '_self',
+                },
+                {
+                    program: 'Career Achievements',
+                    link: '#',
+                    target: '_self',
+                },
+                {
+                    program: 'Personal Management',
+                    link: '#',
+                    target: '_self',
+                },
+                {
+                    program: 'Steps To Success',
+                    link: '#',
+                    target: '_self',
+                },
+                {
+                    program: 'Knowledge Transfer',
+                    link: '#',
+                    target: '_self',
+                },
+            ],
+        };
+    },
 };
 </script>
 
 <template>
     <div class="giga-container">
         <div class="container">
-            <learnNav />
+            <learnNav :options="learnNavOptions" />
             <learnContent />
         </div>
     </div>
