@@ -40,7 +40,7 @@ export default {
     p {
         padding: 30px 0;
         font-size: 18px;
-        line-height: 25px;
+        line-height: 35px;
         color: $tertiary-color;
     }
 }
