@@ -1,9 +1,11 @@
 <script>
 import intestazione from './intestazione.vue';
+import tablePricing from './tablePricing.vue';
 export default {
     name: 'pricingPlans',
     components: {
         intestazione,
+        tablePricing,
     },
     data() {
         return {
@@ -18,6 +20,7 @@ export default {
     <div class="mega-container">
         <div class="container">
             <intestazione :title="title" :description="description" />
+            <tablePricing />
         </div>
     </div>
 </template>
