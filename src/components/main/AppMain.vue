@@ -1,9 +1,11 @@
 <script>
 import jumbotron from './jumbotron.vue';
+import tutoring from './tutoring.vue';
 export default {
     name: 'AppMain',
     components: {
         jumbotron,
+        tutoring,
     },
 };
 </script>
@@ -11,6 +13,7 @@ export default {
 <template>
     <main>
         <jumbotron />
+        <tutoring />
     </main>
 </template>
 
