@@ -20,8 +20,9 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { faTag } from '@fortawesome/free-solid-svg-icons';
+import { faXmark } from '@fortawesome/free-solid-svg-icons';
 
 /* add icons to the library */
-library.add(faMagnifyingGlass, faBagShopping, faBars, faCheck, faUser, faTag);
+library.add(faMagnifyingGlass, faBagShopping, faBars, faCheck, faUser, faTag, faXmark);
 
 createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app');
