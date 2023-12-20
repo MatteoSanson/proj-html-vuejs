@@ -18,8 +18,10 @@ import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import { faBagShopping } from '@fortawesome/free-solid-svg-icons';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
+import { faTag } from '@fortawesome/free-solid-svg-icons';
 
 /* add icons to the library */
-library.add(faMagnifyingGlass, faBagShopping, faBars, faCheck);
+library.add(faMagnifyingGlass, faBagShopping, faBars, faCheck, faUser, faTag);
 
 createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app');
