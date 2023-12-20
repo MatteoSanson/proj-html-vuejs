@@ -3,6 +3,11 @@
     margin: 0 auto;
 }
 
+@mixin container80 {
+    width: 80%;
+    margin: 0 auto;
+}
+
 @mixin contImg {
     width: 100%;
     object-fit: contain;
