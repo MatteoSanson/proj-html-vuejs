@@ -67,8 +67,7 @@ export default {
         }
 
         .cont-img {
-            width: 100%;
-            object-fit: contain;
+            @include contImg;
         }
 
         img {
