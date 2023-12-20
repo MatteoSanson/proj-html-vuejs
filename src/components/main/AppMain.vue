@@ -5,6 +5,7 @@ import empowering from './empowering.vue';
 import profiles from './profiles.vue';
 import learning from './learning.vue';
 import onlineCourses from './onlineCourses.vue';
+import pricingPlans from './pricingPlans.vue';
 export default {
     name: 'AppMain',
     components: {
@@ -14,6 +15,7 @@ export default {
         profiles,
         learning,
         onlineCourses,
+        pricingPlans,
     },
 };
 </script>
@@ -26,6 +28,7 @@ export default {
         <profiles />
         <learning />
         <onlineCourses />
+        <pricingPlans />
     </main>
 </template>
 
