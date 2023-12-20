@@ -3,6 +3,7 @@ import './assets/scss/style.scss';
 import App from './App.vue';
 // import Montserrat
 import "@fontsource/montserrat";
+import "@fontsource/montserrat/700.css";
 // import Source Serif Pro
 import "@fontsource/source-serif-pro";
 /* import the fontawesome core */
