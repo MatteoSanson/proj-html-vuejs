@@ -11,9 +11,11 @@ export default {
 </script>
 
 <template>
-    <div class="container">
-        <learnNav />
-        <learnContent />
+    <div class="giga-container">
+        <div class="container">
+            <learnNav />
+            <learnContent />
+        </div>
     </div>
 </template>
 
@@ -21,10 +23,15 @@ export default {
 @use '../../assets/scss/partials/variables.scss' as *;
 @use '../../assets/scss/partials/mixins.scss' as *;
 
-.container {
-    @include container;
-    display: flex;
-    gap: 50px;
-    padding: 130px 0;
+.giga-container {
+    width: 100%;
+    border-bottom: 1px solid $primary-bd-color;
+
+    .container {
+        @include container;
+        display: flex;
+        gap: 50px;
+        padding: 130px 0;
+    }
 }
 </style>
