@@ -6,6 +6,7 @@ import profiles from './profiles.vue';
 import learning from './learning.vue';
 import onlineCourses from './onlineCourses.vue';
 import pricingPlans from './pricingPlans.vue';
+import clients from './clients.vue';
 export default {
     name: 'AppMain',
     components: {
@@ -16,6 +17,7 @@ export default {
         learning,
         onlineCourses,
         pricingPlans,
+        clients,
     },
 };
 </script>
@@ -29,6 +31,7 @@ export default {
         <learning />
         <onlineCourses />
         <pricingPlans />
+        <clients />
     </main>
 </template>
 
