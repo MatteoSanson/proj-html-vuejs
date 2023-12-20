@@ -35,14 +35,14 @@ export default {
 
 <style scoped lang="scss">
 @use '../../assets/scss/partials/variables.scss' as *;
+@use '../../assets/scss/partials/mixins.scss' as *;
 
 .mega-container {
     width: 100%;
     border-bottom: 1px solid $primary-bd-color;
 
     .container {
-        width: 90%;
-        margin: 0 auto;
+        @include container;
         padding-bottom: 1px;
 
         h2 {
