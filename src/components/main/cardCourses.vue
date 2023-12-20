@@ -51,8 +51,14 @@ export default {
                             {{
                                 course.price.toUpperCase() }}</div>
                     </div>
-                    <p>{{ course.teacher }}</p>
+                    <h5>{{ course.teacher }}</h5>
                     <p>{{ course.info }}</p>
+                    <div class="combos">
+                        <div><font-awesome-icon icon="fa-solid fa-user" /></div>
+                        <div>{{ course.member }}</div>
+                        <div><font-awesome-icon icon="fa-solid fa-tag" class="rotate-180" /></div>
+                        <div><span>{{ course.type.toUpperCase() }}</span></div>
+                    </div>
                 </div>
 
             </li>
@@ -66,6 +72,7 @@ export default {
 @use '../../assets/scss/partials/mixins.scss' as *;
 
 ul {
+    padding-top: 60px;
     display: flex;
     gap: 35px;
 
@@ -90,11 +97,16 @@ ul {
             .combo {
                 display: flex;
                 justify-content: space-between;
+                padding-top: 20px;
 
                 .price {
                     font-size: 12px;
+                    font-weight: 700;
                     padding: 2px 10px;
                     border-radius: 10px;
+                    display: flex;
+                    align-items: center;
+                    color: $secondary-color;
                 }
 
                 .price.free {
@@ -103,6 +115,41 @@ ul {
 
                 .price.dollar {
                     background-color: $bg-button-primary;
+                }
+
+            }
+
+            h4 {
+                font-size: 18px;
+                font-weight: 700;
+            }
+
+            h5 {
+                font-size: 15px;
+                padding: 10px 0 20px;
+                font-family: "Montserrat";
+                color: $eighth-color;
+            }
+
+            p {
+                color: $sixth-color;
+                line-height: 25px;
+                padding-bottom: 25px;
+            }
+
+            .combos {
+                display: flex;
+                color: $eighth-color;
+                gap: 10px;
+                padding-bottom: 35px;
+
+                .rotate-180 {
+                    transform: rotate(90deg);
+                }
+
+                span {
+                    font-size: 14px;
+                    font-weight: 700;
                 }
             }
         }
