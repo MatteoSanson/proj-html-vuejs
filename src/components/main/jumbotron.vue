@@ -66,12 +66,5 @@ export default {
     display: flex;
     gap: 20px;
     padding: 60px 0;
-
-    // .options {
-    //     width: calc(100% / 6);
-    //     height: 185px;
-    //     background-color: $bg-primary;
-    //     text-align: center;
-    // }
 }
 </style>
