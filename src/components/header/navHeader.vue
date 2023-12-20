@@ -74,11 +74,11 @@ export default {
 
 <style scoped lang="scss">
 @use '../../assets/scss/partials/variables.scss' as *;
+@use '../../assets/scss/partials/mixins.scss' as *;
 
 .container-header {
-    width: 90%;
+    @include container;
     display: flex;
-    margin: 0 auto;
     align-items: center;
     justify-content: space-between;
     padding: 20px 0;
