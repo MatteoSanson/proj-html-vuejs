@@ -11,7 +11,7 @@ export default {
                     member: '1',
                     type: 'programming',
                     price: 'free',
-                    img: '../src/assets/icademy/pics/course-5-f-img.jpg',
+                    img: '../../src/assets/icademy/pics/course-5-f-img.jpg',
                 },
                 {
                     title: 'Web Designing',
@@ -20,7 +20,7 @@ export default {
                     member: '1',
                     type: 'programming',
                     price: 'free',
-                    img: '../src/assets/icademy/pics/course-6-f-img.jpg',
+                    img: '../../src/assets/icademy/pics/course-6-f-img.jpg',
                 },
                 {
                     title: 'Financial Modeling',
@@ -29,7 +29,7 @@ export default {
                     member: '1',
                     type: 'Business',
                     price: '$ 20',
-                    img: '../src/assets/icademy/pics/course-12-f-img.jpg',
+                    img: '../../src/assets/icademy/pics/course-12-f-img.jpg',
                 },
             ]
         };
@@ -68,8 +68,8 @@ export default {
 </template>
 
 <style scoped lang="scss">
-@use '../../assets/scss/partials/variables.scss' as *;
-@use '../../assets/scss/partials/mixins.scss' as *;
+@use '../../../assets/scss/partials/variables.scss' as *;
+@use '../../../assets/scss/partials/mixins.scss' as *;
 
 ul {
     padding-top: 60px;
