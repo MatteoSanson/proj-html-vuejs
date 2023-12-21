@@ -4,7 +4,7 @@ export default {
     data() {
         return {
             content: {
-                img: '../src/assets/icademy/pics/testimonials-standard-2.png',
+                img: '../../src/assets/icademy/pics/testimonials-standard-2.png',
                 text: ' "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas libero perspiciatis, repellat modi debitis deleniti ullam iusto magnam, voluptatum laboriosam numquam, officiis omnis corrupti sequi eius vero quaerat odio possimus iste dolor ipsum delectus! Eveniet animi nesciunt enim atque amet?" ',
                 name: 'Joan Collins',
                 type: 'student',
@@ -28,12 +28,12 @@ export default {
 </template>
 
 <style scoped lang="scss">
-@use '../../assets/scss/partials/variables.scss' as *;
-@use '../../assets/scss/partials/mixins.scss' as *;
+@use '../../../assets/scss/partials/variables.scss' as *;
+@use '../../../assets/scss/partials/mixins.scss' as *;
 
 .mega-container {
     width: 100%;
-    background-image: url('../../assets/icademy/pics/h5-parallax-img-1.png');
+    background-image: url('../../../assets/icademy/pics/h5-parallax-img-1.png');
     background-size: 140%;
     background-position: top;
 
