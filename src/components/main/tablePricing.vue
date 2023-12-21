@@ -110,7 +110,7 @@ export default {
             <learnNav :options="pricingNav" />
         </div>
         <div class="table-right">
-            <div v-for="(typeCourse, index) in typeCourses">
+            <div v-for="(typeCourse, index) in typeCourses" class="pippo">
                 <div class="type">
                     <div class="img-cnt">
                         <img :src="typeCourse.img" :alt="typeCourse.alt">
@@ -230,14 +230,19 @@ export default {
         display: flex;
         margin-bottom: 120px;
 
-        div {
+        div.pippo {
             width: calc(100% / 3);
+            border-top: 4px solid $fourth-bd-color;
+
+            &:hover {
+                border-top: 4px solid $bg-button-primary;
+            }
 
             .type {
                 width: 100%;
                 background-color: $nineth-color;
-                border-top: 4px solid $fourth-bd-color;
                 border-right: 1px solid $secondary-bd-color;
+
 
                 .img-cnt {
                     margin: 0 auto;
