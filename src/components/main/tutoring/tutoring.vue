@@ -10,7 +10,7 @@ export default {
                 textLink: 'learn more',
                 link: '#',
                 target: '_self',
-                img: '../src/assets/icademy/pics/h5-img-1.jpg',
+                img: '../../src/assets/icademy/pics/h5-img-1.jpg',
             }
         }
     }
@@ -34,8 +34,8 @@ export default {
 </template>
 
 <style scoped lang="scss">
-@use '../../assets/scss/partials/variables.scss' as *;
-@use '../../assets/scss/partials/mixins.scss' as *;
+@use '../../../assets/scss/partials/variables.scss' as *;
+@use '../../../assets/scss/partials/mixins.scss' as *;
 
 .mega-container {
     width: 100%;
