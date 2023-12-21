@@ -6,25 +6,25 @@ export default {
             list: [
                 {
                     name: 'iAcademy logo',
-                    img: '../src/assets/icademy/pics/h5-client-5.png',
+                    img: '../../src/assets/icademy/pics/h5-client-5.png',
                     link: '#',
                     target: '_self',
                 },
                 {
                     name: 'Study Central logo',
-                    img: '../src/assets/icademy/pics/h5-client-1.png',
+                    img: '../../src/assets/icademy/pics/h5-client-1.png',
                     link: '#',
                     target: '_self',
                 },
                 {
                     name: 'Educator Logo',
-                    img: '../src/assets/icademy/pics/h5-client-2.png',
+                    img: '../../src/assets/icademy/pics/h5-client-2.png',
                     link: '#',
                     target: '_self',
                 },
                 {
                     name: 'Study Central logo',
-                    img: '../src/assets/icademy/pics/h5-client-1.png',
+                    img: '../../src/assets/icademy/pics/h5-client-1.png',
                     link: '#',
                     target: '_self',
                 },
@@ -49,8 +49,8 @@ export default {
 </template>
 
 <style scoped lang="scss">
-@use '../../assets/scss/partials/variables.scss' as *;
-@use '../../assets/scss/partials/mixins.scss' as *;
+@use '../../../assets/scss/partials/variables.scss' as *;
+@use '../../../assets/scss/partials/mixins.scss' as *;
 
 .container {
     @include container;
