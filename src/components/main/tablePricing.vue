@@ -293,6 +293,11 @@ export default {
                     color: $seventh-color;
                     background-color: $secondary-color;
                     cursor: pointer;
+
+                    &:hover {
+                        color: $secondary-color;
+                        background-color: $bg-button-primary;
+                    }
                 }
             }
         }
