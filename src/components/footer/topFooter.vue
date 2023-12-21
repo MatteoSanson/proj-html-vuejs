@@ -21,14 +21,20 @@ export default {
                             {
                                 name: 'Business English',
                                 teacher: 'Preston Marshall',
+                                link: '#',
+                                target: '_self',
                             },
                             {
                                 name: 'Social Computing',
                                 teacher: 'David Sanders',
+                                link: '#',
+                                target: '_self',
                             },
                             {
                                 name: 'Learn Spanish',
                                 teacher: 'Jennie King',
+                                link: '#',
+                                target: '_self',
                             },
                         ]
                     },
@@ -119,12 +125,18 @@ export default {
                             <h3>{{ item.content.title }}</h3>
                         </li>
                         <li v-for="course in item.content.courses" class="courses">
-                            <h4>
-                                {{ course.name }}
-                            </h4>
-                            <p>
-                                {{ course.teacher }}
-                            </p>
+                            <a :href="course.link" :target="course.target">
+                                <h4>
+                                    {{ course.name }}
+                                </h4>
+                            </a>
+                            <a :href="course.link" :target="course.target">
+                                <p>
+                                    {{ course.teacher }}
+                                </p>
+                            </a>
+
+
                         </li>
                     </ul>
                 </div>
@@ -229,9 +241,18 @@ export default {
                 color: $fifth-color;
 
                 li.courses {
+
+                    & h4:hover {
+                        color: $secondary-color;
+                    }
+
                     p {
                         padding-bottom: 20px;
                         font-size: 15px;
+
+                        &:hover {
+                            color: $secondary-color;
+                        }
                     }
                 }
             }
@@ -241,6 +262,10 @@ export default {
 
                 .links {
                     padding-bottom: 20px;
+                }
+
+                li:hover {
+                    color: $secondary-color;
                 }
 
             }
