@@ -14,15 +14,10 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
 /* import specific icons */
-import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
-import { faBagShopping } from '@fortawesome/free-solid-svg-icons';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
-import { faCheck } from '@fortawesome/free-solid-svg-icons';
-import { faUser } from '@fortawesome/free-solid-svg-icons';
-import { faTag } from '@fortawesome/free-solid-svg-icons';
-import { faXmark } from '@fortawesome/free-solid-svg-icons';
+import { faMagnifyingGlass, faBagShopping, faBars, faCheck, faUser, faTag, faXmark, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faClock } from '@fortawesome/free-regular-svg-icons';
 
 /* add icons to the library */
-library.add(faMagnifyingGlass, faBagShopping, faBars, faCheck, faUser, faTag, faXmark);
+library.add(faMagnifyingGlass, faBagShopping, faBars, faCheck, faUser, faTag, faXmark, faClock, faPhone);
 
 createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app');
