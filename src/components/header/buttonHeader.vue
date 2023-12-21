@@ -18,5 +18,10 @@ button {
     border: none;
     color: $secondary-color;
     cursor: pointer;
+
+    &:hover {
+        background-color: $bg-button-secondary;
+        color: $fourth-color;
+    }
 }
 </style>
