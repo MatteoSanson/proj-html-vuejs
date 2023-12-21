@@ -32,10 +32,25 @@ export default {
         width: 100%;
 
         li {
+            position: relative;
             width: 100%;
             border: 1px solid $secondary-bd-color;
             border-top: none;
             background-color: $bg-secondary;
+
+            &:hover {
+                background-color: $bg-hover-color;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 3px;
+                    height: 100%;
+                    background-color: $bg-button-primary;
+                }
+            }
 
             &:first-child {
                 border-top: 1px solid $secondary-bd-color;
