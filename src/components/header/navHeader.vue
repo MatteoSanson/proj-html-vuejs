@@ -100,6 +100,25 @@ export default {
             display: flex;
             align-items: center;
             justify-content: space-between;
+
+            li {
+                position: relative;
+                transition: transform 0.3s;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+
+                a {
+                    text-decoration: none;
+                    transition: color 0.3s;
+                    display: inline-block;
+                }
+
+                &:hover a {
+                    filter: brightness(1.2);
+                }
+            }
         }
     }
 }
