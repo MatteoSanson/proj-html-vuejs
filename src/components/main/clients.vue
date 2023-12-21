@@ -60,18 +60,24 @@ export default {
         display: flex;
 
         li {
+            position: relative;
             width: calc(100% / 4);
 
             .img-cnt {
                 width: 100%;
+                overflow: hidden;
 
                 img {
                     width: 100%;
+                    transition: filter 0.3s;
+
+                    &:hover {
+                        filter: brightness(1.3);
+                        transform: scale(1.05);
+                    }
                 }
             }
         }
     }
-
-
 }
 </style>
