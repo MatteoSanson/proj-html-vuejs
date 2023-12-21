@@ -28,6 +28,10 @@ export default {
     background-color: $bg-primary;
     text-align: center;
 
+    &:hover {
+        background-color: #9CE0FF;
+    }
+
     img {
         padding-top: 45px;
     }
