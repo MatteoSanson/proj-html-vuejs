@@ -1,5 +1,5 @@
 <script>
-import learnNav from './learning/learnNav.vue';
+import learnNav from '../learning/learnNav.vue';
 export default {
     name: 'tablePricing',
     components: {
@@ -51,7 +51,7 @@ export default {
             ],
             typeCourses: [
                 {
-                    img: '../src/assets/icademy/pics/h5-custom-icon-7.png',
+                    img: '../../src/assets/icademy/pics/h5-custom-icon-7.png',
                     alt: 'Standard course logo',
                     type: 'Standard',
                     price: '$ 12',
@@ -65,7 +65,7 @@ export default {
                     businessEnglish: false,
                 },
                 {
-                    img: '../src/assets/icademy/pics/h5-custom-icon-8.png',
+                    img: '../../src/assets/icademy/pics/h5-custom-icon-8.png',
                     alt: 'Professional course logo',
                     type: 'Professional',
                     price: '$ 59',
@@ -79,7 +79,7 @@ export default {
                     businessEnglish: false,
                 },
                 {
-                    img: '../src/assets/icademy/pics/h5-custom-icon-9.png',
+                    img: '../../src/assets/icademy/pics/h5-custom-icon-9.png',
                     alt: 'Advanced course logo',
                     type: 'Advanced',
                     price: '$ 88',
@@ -196,8 +196,8 @@ export default {
 </template>
 
 <style scoped lang="scss">
-@use '../../assets/scss/partials/variables.scss' as *;
-@use '../../assets/scss/partials/mixins.scss' as *;
+@use '../../../assets/scss/partials/variables.scss' as *;
+@use '../../../assets/scss/partials/mixins.scss' as *;
 
 .table {
     display: flex;
