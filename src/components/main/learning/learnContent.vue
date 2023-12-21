@@ -33,14 +33,14 @@ export default {
             </li>
         </ul>
         <div class="bottom-right-image">
-            <img src="../../assets/icademy/pics/h12-tabs-icon-1.png" alt="tabs icon">
+            <img src="../../../assets/icademy/pics/h12-tabs-icon-1.png" alt="tabs icon">
         </div>
     </div>
 </template>
 
 <style scoped lang="scss">
-@use '../../assets/scss/partials/variables.scss' as *;
-@use '../../assets/scss/partials/mixins.scss' as *;
+@use '../../../assets/scss/partials/variables.scss' as *;
+@use '../../../assets/scss/partials/mixins.scss' as *;
 
 
 .containerCo {

@@ -1,5 +1,5 @@
 <script>
-import singleOption from './singleOption.vue';
+import singleOption from './singleoption.vue';
 
 export default {
     name: 'jumbotron',

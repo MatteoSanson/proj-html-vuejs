@@ -3,7 +3,7 @@ import jumbotron from './jumbotron/jumbotron.vue';
 import tutoring from './tutoring.vue';
 import empowering from './empowering.vue';
 import profiles from './profiles.vue';
-import learning from './learning.vue';
+import learning from './learning/learning.vue';
 import onlineCourses from './onlineCourses.vue';
 import pricingPlans from './pricingPlans.vue';
 import clients from './clients.vue';

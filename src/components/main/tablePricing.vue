@@ -1,5 +1,5 @@
 <script>
-import learnNav from './learnNav.vue';
+import learnNav from './learning/learnNav.vue';
 export default {
     name: 'tablePricing',
     components: {
