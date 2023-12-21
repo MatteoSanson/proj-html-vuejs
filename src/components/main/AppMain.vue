@@ -1,5 +1,5 @@
 <script>
-import jumbotron from './jumbotron.vue';
+import jumbotron from './jumbotron/jumbotron.vue';
 import tutoring from './tutoring.vue';
 import empowering from './empowering.vue';
 import profiles from './profiles.vue';

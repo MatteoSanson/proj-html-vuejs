@@ -58,7 +58,7 @@ export default {
 </template>
 
 <style scoped lang="scss">
-@use '../../assets/scss/partials/variables.scss' as *;
+@use '../../../assets/scss/partials/variables.scss' as *;
 
 .jumbotron {
     width: 90%;
