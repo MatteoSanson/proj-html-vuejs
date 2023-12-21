@@ -6,7 +6,7 @@ export default {
             content: {
                 title: 'Empowering Children to Reach Their Potential',
                 text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas deserunt placeat ut aliquid numquam modi quisquam magnam. Explicabo aperiam atque amet vel? Debitis, ipsum perspiciatis?',
-                img: '../src/assets/icademy/pics/h5-img-2.jpg',
+                img: '../../src/assets/icademy/pics/h5-img-2.jpg',
             },
             datas: {
                 number: [168, 347],
@@ -39,8 +39,8 @@ export default {
 </template>
 
 <style scoped lang="scss">
-@use '../../assets/scss/partials/variables.scss' as *;
-@use '../../assets/scss/partials/mixins.scss' as *;
+@use '../../../assets/scss/partials/variables.scss' as *;
+@use '../../../assets/scss/partials/mixins.scss' as *;
 
 .container {
     @include container;
